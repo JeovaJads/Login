@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.pri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-image: linear-gradient(42deg, purple , black, blue);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.tot{
+    background-color: white;
+    max-height: 400px;
+    height: 60vh;
+    min-width: 210px;
+    width: 50vh;
+
+    margin: 0 15px ;
+    padding: 20px 0  ;
+    overflow: hidden;
+    border-radius: 4%;
+}
+.detal{
+    border-bottom: 1px solid lightgray;
+    margin: 30px 10px 40px 0px;
+}
+.detal input{
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 5px 0 0 80px;
+    font-size: 1.3rem;
+}    
+.detal i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+
+}
+.but{
+    
+    display: flex;
+    justify-content: center;
+}
+.but input{
+    outline: none;
+    border: none;
+    min-width: 160px;
+    height: 42px;
+    border-radius: 21px;
+    cursor: pointer;
+
+    background: purple;
+    transition: 1.5s;
+}
+.but :hover{
+    background: gray;
+    transition: 1.5s;
+}
